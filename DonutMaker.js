@@ -5,7 +5,7 @@ class DonutMaker{
         this.numDonuts = numDonuts;
         this.numAutoClickers = numAutoClickers;
         this.autoClickerCost = autoClickerCost;
-        this.numDonutMultiplier = this.numDonutMultiplier;
+        this.numDonutMultiplier = numDonutMultiplier;
         this.donutMultiplierCost = donutMultiplierCost;
     }
 
