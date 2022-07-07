@@ -57,7 +57,7 @@ describe("DonutMaker", () =>{
     })
 
     test("should be able to increase the cost of the donut multiplier by 10% each time is purchased", () =>{
-        const underTest = new DonutMaker(11, 0, 0, 1);
+        const underTest = new DonutMaker(10, 0, 0, 0);
         underTest.addDonutMultiplier();
         expect(underTest.donutMultiplierCost).toEqual(11);
     })
